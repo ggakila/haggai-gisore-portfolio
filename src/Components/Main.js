@@ -2,12 +2,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import useMousePosition from '../useMousePosition';
+// import arrowImage from '../images/arrow.svg';
 
 
 export default function Main() {
     const [isHovered, setIsHovered] = useState(false);
     const { x, y } = useMousePosition();
-    const size = isHovered ? 600 : 60;
+    const size = isHovered ? 300 : 30;
 
   return (
     <main className= 'main'>
@@ -20,10 +21,9 @@ export default function Main() {
         "Embracing Pan-Africanism with Code: A Nairobi-based Software Developer on a Quest for Greatness, Empowering Change through Technology."        </p>
       </motion.div>
 
-      <motion.div className= 'body'>
-        <h1>HAGGAI GISORE</h1>
+      <motion.div className= 'body' >
+        <motion.h1 >HAGGAI GISORE STUDIOS</motion.h1>
       </motion.div>
-
     </main>
   )
 }
