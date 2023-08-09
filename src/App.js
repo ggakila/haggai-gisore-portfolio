@@ -1,12 +1,14 @@
 import './App.css';
 import Main  from './Components/Main';
 import Philosophy from './Components/Philosophy';
+import Header from './Components/Header';
 
 export default function Home(){
   return (
     <>
-      <Main />
+      <Header className = "container" />
       <Philosophy />
+      <Main />
     </>
   )
 }
