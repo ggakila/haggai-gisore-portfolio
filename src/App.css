@@ -3,7 +3,59 @@
 * {
   margin: 0;
   font-family: 'Handjet', cursive;
+  box-sizing: border-box;
 }
+
+
+.homepage {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  color: rgb(223, 223, 223);
+  background-color: #6b6b6b;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #6b6b6b 60px ), repeating-linear-gradient( #f3707055, #f37070 );
+}
+
+header {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 20px 50px;
+}
+
+.logo {
+  position: absolute;
+  bottom: 10%;
+  left: 1%;
+  font-size: 200px;
+}
+
+.navs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.navs li {
+  padding: 10px 40px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .main {
   height: 100vh;
