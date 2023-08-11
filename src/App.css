@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 
 .homepage {
   position: relative;
@@ -35,6 +39,7 @@ header {
 
 .navs{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   list-style: none;
