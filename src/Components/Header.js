@@ -3,6 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div className="homepage">
+      <div className="bgimage"></div>>
       <h1 className="logo">STUDIO HAGGAI GISORE</h1>
       <header>
         <h1>haggai gisore studio</h1>
